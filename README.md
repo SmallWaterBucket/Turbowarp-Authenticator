@@ -30,6 +30,7 @@ def your_function(username, your_arguments): #never use arguments of name: prime
   return your_return
 ```
 2. In scratch use the ```Send user verified request (request) with the arguments (join them with & eg. "apple&banana&orange") (arguments)```
+
 <ins>For example:</ins>
 <img width="1056" height="83" alt="image" src="https://github.com/user-attachments/assets/26c27038-6f80-433d-8215-3a884192dca3" />
 
