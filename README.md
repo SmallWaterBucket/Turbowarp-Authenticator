@@ -74,6 +74,13 @@ This protocol is designed to prevent attackers from impersonating another Scratc
 ## How it works
 The inner workings of this project can be pretty complicated. Thus I will provide an example to better illustrate how it works. I will use very small primes which are easy to factor in reality they are longer and take much more time to factorize.
 
+> [!NOTE]
+> This project requires 2(n+2) primes for n verified requests. Preprograming them inside the code defeats the whole purpose of this project as they should be kept a secret.
+> Thus the project provides two ways for the user to acquire these primes:
+> 1. The project generates them locally and automatically (around 5 minutes for 10 primes) (2 primes / minute)
+> 2. The user goes to my webpage to copy 100 freshly generated primes (around 2 seconds for 100 primes) (3000 primes / minute)
+
+
 ### Initial Authentication
 1. The server is pinged to check connection
 2. Scratch generates/is provided with a list of 50 character long primes: {7,3,11,5,13,17...}
