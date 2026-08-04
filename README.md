@@ -43,7 +43,7 @@ TurboWarp-Authenticator is designed with this assumption in mind. It treats ever
 
 ## How to add my own verified request:
 1. In tw_authenticator.py add
-```
+```py
 @client.requests
 @verified_request
 def your_function(username, argument_1, argument_2): # The username variable is always injected and your arguments are passed on from scratch
