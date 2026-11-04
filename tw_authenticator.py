@@ -56,7 +56,6 @@ def verified_request(func):
     return wrapper
     
 def verify_user(username,prime1,prime2,next_product, function_name):
-    username = username.lower()
     
     verificator = verificators.get(username)
 
