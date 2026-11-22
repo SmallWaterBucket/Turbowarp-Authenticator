@@ -116,6 +116,15 @@ if current_prime_1 (11) * current_prime_2 (5) == previous_product (55):
 else:
   user is illegitimate
 ```
+
+
+### Animated explanation
+
+> [!NOTE]
+> This animation was made by Claude in Manim with this README provided as a base
+
+https://github.com/user-attachments/assets/d73b6821-5607-405d-b826-86c31acf7f8b
+
 >[!NOTE]
 >This project also introduces a custom new type, called the Verificator. All it is is just the next_product together with the expiry date. Then those verificators are stored in a dictionary with the username used as a key.
 
