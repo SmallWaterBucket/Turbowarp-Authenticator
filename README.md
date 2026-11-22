@@ -123,7 +123,7 @@ else:
 > [!NOTE]
 > This animation was made by Claude in Manim with this README provided as a base
 
-https://github.com/user-attachments/assets/d73b6821-5607-405d-b826-86c31acf7f8b
+[https://github.com/user-attachments/assets/d73b6821-5607-405d-b826-86c31acf7f8b](https://github.com/user-attachments/assets/95d844ff-4db1-45f8-8496-2bb2c30d26eb)
 
 >[!NOTE]
 >This project also introduces a custom new type, called the Verificator. All it is is just the next_product together with the expiry date. Then those verificators are stored in a dictionary with the username used as a key.
